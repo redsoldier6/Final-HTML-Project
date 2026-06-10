@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+# {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+
+LANDING
+
+*/
+
+nav {
+    padding: 32px;
+    display: flex;   
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;   
+}
+
+.nav__logo--img {
+   height: 40px;
+   width: 40px;
+}
